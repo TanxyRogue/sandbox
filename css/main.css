@@ -1,14 +1,3 @@
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    color: rgba(24, 45, 161, 0.781);
-    text-decoration: underline;
-}
-a:active{
-    color: crimson;
-}
 body{
     margin: 20%;
     background-color: #f4f4f4;
@@ -23,26 +12,13 @@ body h1{
 body p{
     line-height: 1.6em;
 }
-.myform{
-    padding: 20px;
-}
-.myform .formLine{
-    line-height: 1.6em;
-    padding: 1%;
-    align-self: auto;
-}
-.myform .formLine input{
-    width: 100%;
-    padding: 10px
-}
-.button{
-    background-color: rgb(39, 34, 34);
-    color: wheat;
-    border: none;
-    box-sizing: content-box;
-}
-
-.button:hover{
-    background-color: rgba(24, 45, 161, 0.781);
-    text-decoration: underline;
+footer{
+    font-weight: 100;
+    align-self: center;
+    font-size: 14px;
+    background-color: #cfcece;
+    text-align: center;}
+footer:hover{
+    color: #55555500;
+    background-color: #f4f4f4;
 }
